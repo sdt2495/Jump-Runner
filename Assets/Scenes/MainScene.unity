@@ -676,6 +676,7 @@ GameObject:
   - component: {fileID: 2019834426}
   - component: {fileID: 2019834425}
   - component: {fileID: 2019834430}
+  - component: {fileID: 2019834431}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -818,6 +819,19 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &2019834431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019834424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9326cb003fd7a54db1b37346a7ba941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minY: -5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
